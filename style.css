@@ -78,7 +78,7 @@ header img {
     left: calc(50% - 115px);
     top: 270px;
     display: block;
-    margin-top: 3.5rem;
+    margin-top: 35px;
     padding: 15px;
     width: 229px;
     height: 48px;
@@ -102,4 +102,57 @@ header img {
     margin-left: 10px;
     background-image: url("./assets/icons/ArrowDown.svg");
   }
+
+/**********- Main info starts -**********/
+
+main {
+  width: 100%;
+  height: auto;
+  background-color: var(--off-white);
+}
+
+.main-container {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
+
+}
+.main-container__bitcoinImg{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+
+
+  background-image: url('./assets/images/Bitcoin.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-container__text {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.main-container__text h2{
+  margin-bottom: 30px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--warm-black);
+}
+
+.main-container__text p{
+  margin-bottom: 30px;
+  font-size: 1.4rem;
+  font-weight:500;
+  line-height: 1.6rem;
+  color: #757575;
+}
+
 /**/

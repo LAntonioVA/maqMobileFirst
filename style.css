@@ -159,6 +159,12 @@ main {
 
 /* Table Style starts*/
 
+.main-container__compare-coinVsfee {
+  display: flex;
+  width: 100%;
+  overflow-x: auto;
+}
+
 .main-table {
   width: 70%;
   min-width: 235px;
@@ -166,10 +172,10 @@ main {
   height: 280px;
 
   margin: 0 auto;
+ 
 
   font-family: "inter", sans-serif;
   
-/*   background-color: #1a9af7; */
 }
 
 .main-table .main-table__title-coin {
@@ -184,7 +190,7 @@ main {
 
 .main-table__currency {
 
-  width: 90%;
+  width: 70%;
   min-width: 200px;
   max-width: 300px;
   height: 160px;
@@ -196,7 +202,7 @@ main {
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.9rem;
-  color: var(--warm-black1);
+  color: var(--grey);
 
   text-align: start;
 }
@@ -231,8 +237,8 @@ main {
 .main-table__currency .main-table--rigth {
   font-size: 1.4rem;
   line-height: 1.7rem;
-  font-weight: normal;
-  color: var(--grey);
+  font-weight: 400;
+  color: var(--warm-black);
   text-align: center;
 }
 
@@ -272,4 +278,26 @@ main {
   text-align: center;
 }
 
+.main-table .main-table__title-fee {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-family: "DM", sans-serif;
+  font-weight: bold;
+  color: var(--secondary-blue);
+  text-align: start;
+  padding-left: 10%;
+}
+.main-table__update-tag-fee {
+  background-color: var(--soft-blue);
 
+  width: 173px;
+  height: 30px;
+  border-radius: 8px;
+  padding: 8px;
+
+  margin: 0 auto;
+
+  font-family: "Inter",sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+}

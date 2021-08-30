@@ -61,49 +61,49 @@ header img {
 }
 
 .header__title-container h1 {
-    font-size: 2.4rem;
-    font-weight: bold;
-    line-height: 2.6rem;
-    color: var(--justwhite)
-  }
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--justwhite);
+}
 
-  .header__title-container p {
-    font-size: 1.4rem;
-    font-weight: normal;
-    line-height: 1.8rem;
-    color: var(--justwhite);
-    margin-top: 2.4rem;
-  }
+.header__title-container p {
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 1.8rem;
+  color: var(--justwhite);
+  margin-top: 2.4rem;
+}
 
-  .header__title-container .header__button {
-    position: absolute;
-    left: calc(50% - 115px);
-    top: 270px;
-    display: block;
-    margin-top: 35px;
-    padding: 15px;
-    width: 229px;
-    height: 48px;
-    background-color: var(--off-white);
-    /*Shadow*/
-    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
-    /*Button shape*/
-    border: none;
-    border-radius: 4px;
-    /*Font*/
-    font-size: 1.4rem;
-    font-weight: bold;
-    text-decoration: none;
-    color: var(--warm-black);
-  }
+.header__title-container .header__button {
+  position: absolute;
+  left: calc(50% - 115px);
+  top: 270px;
+  display: block;
+  margin-top: 35px;
+  padding: 15px;
+  width: 229px;
+  height: 48px;
+  background-color: var(--off-white);
+  /*Shadow*/
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  /*Button shape*/
+  border: none;
+  border-radius: 4px;
+  /*Font*/
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--warm-black);
+}
 
-  .header__button span{
-    display: inline-block;
-    width: 13px;
-    height: 8px;
-    margin-left: 10px;
-    background-image: url("./assets/icons/ArrowDown.svg");
-  }
+.header__button span {
+  display: inline-block;
+  width: 13px;
+  height: 8px;
+  margin-left: 10px;
+  background-image: url("./assets/icons/ArrowDown.svg");
+}
 
 /**********- Main info starts -**********/
 
@@ -119,15 +119,13 @@ main {
   padding-top: 80px;
   padding-bottom: 30px;
   text-align: center;
-
 }
-.main-container__bitcoinImg{
+.main-container__bitcoinImg {
   width: 200px;
   height: 200px;
   margin: 0 auto;
 
-
-  background-image: url('./assets/images/Bitcoin.svg');
+  background-image: url("./assets/images/Bitcoin.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -141,7 +139,7 @@ main {
   margin-top: 40px;
 }
 
-.main-container__text h2{
+.main-container__text h2 {
   margin-bottom: 30px;
   font-size: 2.4rem;
   font-weight: bold;
@@ -149,10 +147,10 @@ main {
   color: var(--warm-black);
 }
 
-.main-container__text p{
+.main-container__text p {
   margin-bottom: 30px;
   font-size: 1.4rem;
-  font-weight:500;
+  font-weight: 500;
   line-height: 1.6rem;
   color: #757575;
 }
@@ -172,10 +170,8 @@ main {
   height: 280px;
 
   margin: 0 auto;
- 
 
   font-family: "inter", sans-serif;
-  
 }
 
 .main-table .main-table__title-coin {
@@ -189,13 +185,11 @@ main {
 }
 
 .main-table__currency {
-
   width: 70%;
   min-width: 200px;
   max-width: 300px;
   height: 160px;
-  
-  
+
   margin: 0 auto;
   margin-bottom: 16px;
 
@@ -226,11 +220,11 @@ main {
 .main-table--bottomRightCorner {
   border-radius: 0 0 8px 0;
 }
-.main-table--bottomLeftCorner{
+.main-table--bottomLeftCorner {
   border-radius: 0 0 0 8px;
 }
 
-.main-table__currency .main-table--left{
+.main-table__currency .main-table--left {
   padding-left: 12px;
 }
 
@@ -242,7 +236,7 @@ main {
   text-align: center;
 }
 
-.main-table--trendUpIcon span{
+.main-table--trendUpIcon span {
   width: 12px;
   height: 12px;
   margin-left: 10px;
@@ -250,9 +244,9 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('./assets/icons/trending-up.svg');  
+  background-image: url("./assets/icons/trending-up.svg");
 }
-.main-table--trendDownIcon span{
+.main-table--trendDownIcon span {
   width: 12px;
   height: 12px;
   margin-left: 10px;
@@ -260,7 +254,7 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('./assets/icons/trending-down.svg');
+  background-image: url("./assets/icons/trending-down.svg");
 }
 
 .main-table__update-tag {
@@ -273,7 +267,7 @@ main {
 
   margin: 0 auto;
 
-  font-family: "Inter",sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.2rem;
   text-align: center;
 }
@@ -297,7 +291,93 @@ main {
 
   margin: 0 auto;
 
-  font-family: "Inter",sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.2rem;
   text-align: center;
+}
+
+/*Detail Product Starts*/
+
+.product-detail {
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  position: relative;
+  padding: 20px 10px;
+
+  background-color: #201e1c;
+}
+
+.product-detail__single-icon {
+  position: absolute;
+  bottom: calc(100% - 12px);
+  left: calc(50% - 20.5px);
+
+  width: 41px;
+  height: 24px;
+  background-image: url("./assets/images/Logo-simple.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.product-detail__card article {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  min-height: 152px;
+  margin: 16px 0;
+  padding: 14px 16px;
+  padding-bottom: 22px;
+
+  border-radius: 4px;
+  background-color: var(--warm-black1);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+
+  font-family: "DM Sans", sans-serif;
+}
+
+.product-detail__card article span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-bottom: 10px;
+  /* background-color: royalblue; */
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.product-detail__card article h3 {
+  margin-bottom: 10px;
+
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--justwhite);
+}
+
+.product-detail__card article p {
+  /* margin-bottom: 10px; */
+
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+}
+
+.product-detail__card .product-detail--clock {
+  background-image: url("./assets/icons/clock.svg");
+}
+
+.product-detail__card .product-detail--eye {
+  background-image: url("./assets/icons/eye.svg");
+}
+
+.product-detail__card .product-detail--money {
+  background-image: url("./assets/icons/dollar.svg");
+}
+
+.product-detail__card .product-detail--check {
+  background-image: url("./assets/icons/check-circle.svg");
 }

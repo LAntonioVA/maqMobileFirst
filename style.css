@@ -159,17 +159,21 @@ main {
 
 .main-container__compare-coinVsfee {
   display: flex;
+  gap: 10px;
+  padding: 0 20px;
   width: 100%;
-  overflow-x: auto;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
 }
 
 .main-table {
+  scroll-snap-align: center;
+
   width: 70%;
   min-width: 235px;
   max-width: 500px;
   height: 280px;
-
-  margin: 0 12.5%;
 
   font-family: "inter", sans-serif;
 }
@@ -437,6 +441,9 @@ main {
   width: 100%;
   min-width: 320px;
   height: auto;
+
+  
+
   padding-top: 50px;
   padding-bottom: 70px;
   text-align: center;
@@ -470,26 +477,29 @@ main {
 }
 
 .main-plan-container__reel{
-  display: flex;
-  /* gap: 50px; */
   height: 316px;
+  padding: 0 60px;
+
+  display: flex;
+  gap: 20px;
+
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
-  align-items: center;
+  align-items: center;  
 }
 
 .main-plan-container__reel article {
+  position: relative;
+  scroll-snap-align: center;
+  
   width: 60%;
   min-width: 190px;
   max-width: 400px;
   height: auto;
   min-height: 247px;
   max-height: 250px;
-  margin: 0 20px; /*Add space between cards*/
-
-  position: relative;
-  scroll-snap-align: center;
+  /* margin: 0 20px; */ /*Add space between cards*/
 
   padding: 30px 16px 25px 16px;
  
@@ -590,4 +600,40 @@ main {
   background-repeat: no-repeat;
 
   vertical-align: text-bottom;
+}
+
+/*Footer Styles*/
+
+footer{
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  min-width: 320px;
+  height: 150px;
+
+  background-color: var(--bitcoin-orange);
+}
+
+footer section {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-left ul {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  list-style: none;
+}
+
+.footer-left li {
+  margin: 10px 0;
+}
+
+.footer-left ul a{
+  text-decoration: none;
+  color: var(--justwhite);
 }

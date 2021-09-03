@@ -1,0 +1,11 @@
+.product-detail__card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.main-container__compare-coinVsfee {
+    padding: 0 15%;
+}
